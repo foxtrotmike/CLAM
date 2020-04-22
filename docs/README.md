@@ -8,7 +8,7 @@ Data Efficient and Weakly Supervised Computational Pathology on Whole Slide Imag
 
 [<img src="ani.gif" width="415px" align="left" />](http://clam.mahmoodlab.org)
 ## CLAM: A Deep-Learning-based Pipeline for Data Efficient and Weakly Supervised Whole-Slide-level Analysis 
-[Pre-requisites](#pre-requisites) • [Installation](INSTALLATION.md) • [Segmentation and Patching](#wsi-segmentation-and-patching) • [Feature Extraction](#weakly-supervised-learning-using-slide-level-labels-with-clam) • [Weakly Supervised Training](#Training-Splits) • [Testing](#Testing-and-Evaluation-Script) • [Trained Models](#Trained-Model-Checkpoints) • [Examples](#examples) • Pre-print • [Demo](http://clam.mahmoodlab.org) • [Cite](#reference)
+[Pre-requisites](#pre-requisites) • [Installation](INSTALLATION.md) • [Segmentation and Patching](#wsi-segmentation-and-patching) • [Feature Extraction](#weakly-supervised-learning-using-slide-level-labels-with-clam) • [Weakly Supervised Training](#Training-Splits) • [Testing](#Testing-and-Evaluation-Script) • [Trained Models](#Trained-Model-Checkpoints) • [Examples](#examples) • [Pre-print](https://arxiv.org/abs/2004.09666) • [Demo](http://clam.mahmoodlab.org) • [Cite](#reference)
 
 ***How does CLAM work?** Clustering-constrained Attention Multiple Instance Learning (CLAM) is a deep-learning-based weakly-supervised method that uses attention-based learning to automatically identify sub-regions of high diagnostic value in order to accurately classify the whole slide, while also utilizing instance-level clustering over the representative regions identified to constrain and refine the feature space.*
 
@@ -258,12 +258,12 @@ Visulize additional examples here: http://clam.mahmoodlab.org
 © [Mahmood Lab](http://www.mahmoodlab.org) - This code is made available under the GPLv3 License and is available for non-commercial academic purposes. 
 
 ## Reference
-If you find our work useful in your research or if you use parts of this code please consider citing our paper:
+If you find our work useful in your research or if you use parts of this code please consider citing our [paper](https://arxiv.org/abs/2004.09666):
 ```
 @inproceedings{lu2020clam,
   title     = {Data Efficient and Weakly Supervised Computational Pathology on Whole Slide Images},
   author    = {Ming Y. Lu, Drew F. K. Williamson, Tiffany Y. Chen, Richard J. Chen, Matteo Barbieri, Faisal Mahmood},
-  booktitle = {arXiv},
+  booktitle = {arXiv:2004.09666},
   year = {2020}
 }
 ```
