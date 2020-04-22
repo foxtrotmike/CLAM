@@ -2,7 +2,7 @@ CLAM <img src="clam-logo.png" width="280px" align="right" />
 ===========
 Data Efficient and Weakly Supervised Computational Pathology on Whole Slide Images.
 
-ArXiv | [Interactive Demo](http://clam.mahmoodlab.org)
+[ArXiv](https://arxiv.org/abs/2004.09666) | [Interactive Demo](http://clam.mahmoodlab.org)
 
 ***TL;DR:** CLAM is a high-throughput and interpretable method for data efficient whole slide image (WSI) classification using slide-level labels without any ROI extraction or patch-level annotations, and is capable of handling multi-class subtyping problems. Tested on three different WSI datasets, trained models adapt to independent test cohorts of WSI resections and biopsies as well as cellphone microscopy data.*
 
